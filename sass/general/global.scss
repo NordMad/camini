@@ -1,0 +1,36 @@
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 400;
+  color: $black;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
